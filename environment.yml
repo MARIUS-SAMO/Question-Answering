@@ -1,0 +1,14 @@
+name: question_answering_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - langchain
+      - transformers
+      - streamlit
+      - pypdf2
+      - faiss-cpu
+      - InstructorEmbedding
+      - sentence_transformers
